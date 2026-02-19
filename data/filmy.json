@@ -1,0 +1,43 @@
+{
+  "filmy": [
+    {"tytul":"Kosmiczna Komedia","data_kin":"2025-06-12","gatunki":["komedia","sci-fi"],"rezyser":"Jan Kowalski","aktorzy":["Anna Nowak","Piotr Zieliński","Marta Wiśniewska"],"typ_dostepu":"Premium","licznik_odtworzen":1420},
+    {"tytul":"Horror w Mieście","data_kin":"2024-10-31","gatunki":["horror","thriller"],"rezyser":"Marek Malinowski","aktorzy":["Katarzyna Sienkiewicz","Tomasz Bagiński"],"typ_dostepu":"Public","licznik_odtworzen":2980},
+    {"tytul":"Romans w Deszczu","data_kin":"2025-02-14","gatunki":["romans","dramat"],"rezyser":"Ewa Zielińska","aktorzy":["Julia Kamińska","Łukasz Nowicki"],"typ_dostepu":"Premium","licznik_odtworzen":1750},
+    {"tytul":"Akcja nad Morzem","data_kin":"2025-07-20","gatunki":["akcja","przygodowy"],"rezyser":"Tomasz Wiśniewski","aktorzy":["Michał Żebrowski","Agnieszka Grochowska"],"typ_dostepu":"Public","licznik_odtworzen":3900},
+    {"tytul":"Tajemnice Lasu","data_kin":"2025-09-10","gatunki":["fantasy","dramat"],"rezyser":"Anna Malinowska","aktorzy":["Karolina Gruszka","Piotr Adamczyk"],"typ_dostepu":"Premium","licznik_odtworzen":820},
+    {"tytul":"Szybcy i Zabawni","data_kin":"2025-08-05","gatunki":["komedia","akcja"],"rezyser":"Jan Kowalski","aktorzy":["Anna Nowak","Tomasz Kot"],"typ_dostepu":"Premium","licznik_odtworzen":2750},
+    {"tytul":"Zagubieni w Czasie","data_kin":"2025-03-22","gatunki":["sci-fi","thriller"],"rezyser":"Marek Malinowski","aktorzy":["Katarzyna Sienkiewicz","Michał Żebrowski"],"typ_dostepu":"Public","licznik_odtworzen":1340},
+    {"tytul":"Komedie Na Wieczór","data_kin":"2024-12-01","gatunki":["komedia","romans"],"rezyser":"Ewa Zielińska","aktorzy":["Julia Kamińska","Łukasz Nowicki"],"typ_dostepu":"Premium","licznik_odtworzen":4500},
+    {"tytul":"Podróż Bohatera","data_kin":"2025-05-15","gatunki":["przygodowy","fantasy"],"rezyser":"Tomasz Wiśniewski","aktorzy":["Piotr Adamczyk","Agnieszka Grochowska"],"typ_dostepu":"Public","licznik_odtworzen":2120},
+    {"tytul":"Groza w Nocy","data_kin":"2025-10-10","gatunki":["horror"],"rezyser":"Anna Malinowska","aktorzy":["Karolina Gruszka","Tomasz Bagiński"],"typ_dostepu":"Premium","licznik_odtworzen":960},
+    {"tytul":"Miłość i Kawa","data_kin":"2025-01-20","gatunki":["romans","komedia"],"rezyser":"Jan Kowalski","aktorzy":["Anna Nowak","Łukasz Nowicki"],"typ_dostepu":"Public","licznik_odtworzen":3200},
+    {"tytul":"Akcja w Mieście","data_kin":"2025-06-01","gatunki":["akcja","thriller"],"rezyser":"Marek Malinowski","aktorzy":["Michał Żebrowski","Tomasz Kot"],"typ_dostepu":"Premium","licznik_odtworzen":1870},
+    {"tytul":"Fantastyczne Przygody","data_kin":"2025-07-18","gatunki":["fantasy","przygodowy"],"rezyser":"Ewa Zielińska","aktorzy":["Piotr Adamczyk","Julia Kamińska"],"typ_dostepu":"Public","licznik_odtworzen":1400},
+    {"tytul":"Komedia Roku","data_kin":"2025-04-12","gatunki":["komedia"],"rezyser":"Tomasz Wiśniewski","aktorzy":["Anna Nowak","Agnieszka Grochowska"],"typ_dostepu":"Premium","licznik_odtworzen":2990},
+    {"tytul":"Nocne Tajemnice","data_kin":"2025-11-11","gatunki":["thriller","horror"],"rezyser":"Anna Malinowska","aktorzy":["Katarzyna Sienkiewicz","Tomasz Bagiński"],"typ_dostepu":"Public","licznik_odtworzen":1110}
+  ],
+  "uzytkownicy": [
+    {"login":"kinoFan99","email":"fan@mongoflix.pl","punkty_lojalnosciowe":350,"czy_vip":true,"preferencje":{"ulubione_gatunki":["komedia","akcja"]}},
+    {"login":"horrorLover","email":"horror@mongoflix.pl","punkty_lojalnosciowe":120,"czy_vip":false,"preferencje":{"ulubione_gatunki":["horror","thriller"]}},
+    {"login":"romantyk23","email":"romans@mongoflix.pl","punkty_lojalnosciowe":500,"czy_vip":true,"preferencje":{"ulubione_gatunki":["romans","dramat"]}},
+    {"login":"akcjonista","email":"akcja@mongoflix.pl","punkty_lojalnosciowe":220,"czy_vip":false,"preferencje":{"ulubione_gatunki":["akcja","przygodowy"]}},
+    {"login":"fantasta","email":"fantasy@mongoflix.pl","punkty_lojalnosciowe":410,"czy_vip":true,"preferencje":{"ulubione_gatunki":["fantasy","przygodowy"]}}
+  ],
+  "recenzje": [
+    {"film_id":"1","uzytkownik_id":"1","ocena":9,"komentarz":"Świetna komedia, polecam!","data_recenzji":"2026-02-18"},
+    {"film_id":"2","uzytkownik_id":"2","ocena":7,"komentarz":"Trochę straszny, ale fajny.","data_recenzji":"2026-02-17"},
+    {"film_id":"3","uzytkownik_id":"3","ocena":8,"komentarz":"Romantyczny i wzruszający.","data_recenzji":"2026-02-16"},
+    {"film_id":"4","uzytkownik_id":"4","ocena":6,"komentarz":"Akcja spoko, ale przewidywalna.","data_recenzji":"2026-02-15"},
+    {"film_id":"5","uzytkownik_id":"5","ocena":8,"komentarz":"Fantastyczne efekty wizualne!","data_recenzji":"2026-02-14"},
+    {"film_id":"6","uzytkownik_id":"1","ocena":7,"komentarz":"Śmieszne i dynamiczne.","data_recenzji":"2026-02-13"},
+    {"film_id":"7","uzytkownik_id":"2","ocena":8,"komentarz":"Fajne sci-fi, trochę napięcia.","data_recenzji":"2026-02-12"},
+    {"film_id":"8","uzytkownik_id":"3","ocena":9,"komentarz":"Idealna komedia na wieczór.","data_recenzji":"2026-02-11"},
+    {"film_id":"9","uzytkownik_id":"4","ocena":7,"komentarz":"Przygoda wciąga od początku.","data_recenzji":"2026-02-10"},
+    {"film_id":"10","uzytkownik_id":"5","ocena":6,"komentarz":"Straszny klimat, ale niezły.","data_recenzji":"2026-02-09"},
+    {"film_id":"11","uzytkownik_id":"1","ocena":8,"komentarz":"Romantyczna komedia w sam raz.","data_recenzji":"2026-02-08"},
+    {"film_id":"12","uzytkownik_id":"2","ocena":7,"komentarz":"Akcja trzyma w napięciu.","data_recenzji":"2026-02-07"},
+    {"film_id":"13","uzytkownik_id":"3","ocena":9,"komentarz":"Fantastyczne przygody!","data_recenzji":"2026-02-06"},
+    {"film_id":"14","uzytkownik_id":"4","ocena":8,"komentarz":"Śmieszna komedia, warto obejrzeć.","data_recenzji":"2026-02-05"},
+    {"film_id":"15","uzytkownik_id":"5","ocena":7,"komentarz":"Thriller trzyma w napięciu.","data_recenzji":"2026-02-04"}
+  ]
+}
