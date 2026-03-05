@@ -28,3 +28,17 @@ const featuredFilmy = db.filmy.find(
 ).toArray();
 
 printjson(featuredFilmy);
+
+
+
+
+//[ ] Napisanie zapytania filtrującego filmy po dacie i ocenie (operators: $gt, $and).
+
+db.filmy.find({
+    $and: [
+        { data_kin: { $gt: "2025-01-01" } },
+        { ocena: { $gt: 7 } }
+    ]
+})
+
+
