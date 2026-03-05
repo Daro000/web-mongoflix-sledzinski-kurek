@@ -73,6 +73,19 @@ Aby rozpocząć projekt, wykonaj te kroki:
 
 
 
+Insturkcja uruchomieniowa:
+
+na początku załadowanie danych :
+
+mongosh scripts/seed.js
+
+aby wyświeltić wyniki zapytań :
+
+mongosh queries/analysis.mongodb.js
+
+
+
+
 
 
 
