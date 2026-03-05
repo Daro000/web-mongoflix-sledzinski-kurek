@@ -47,3 +47,14 @@ db.filmy.find({
 })
 
 
+//[ ] Stworzenie agregacji (aggregate): Średnia ocena dla każdego gatunku.
+
+db.filmy.aggregate([
+    { $unwind: "$gatunki" },
+    {
+        $group: {
+            _id: "$gatunki",
+            sredniaOcena: { $avg: "$ocena" }
+        }
+    }
+])
