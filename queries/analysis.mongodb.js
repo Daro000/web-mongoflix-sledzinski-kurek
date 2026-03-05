@@ -29,10 +29,15 @@ const featuredFilmy = db.filmy.find(
 
 printjson(featuredFilmy);
 
+// [ ] Napisanie zapytania wyszukującego filmy z konkretnego gatunku (find).
+
+
+db.filmy.find({ gatunki: "komedia" })
 
 
 
-//[ ] Napisanie zapytania filtrującego filmy po dacie i ocenie (operators: $gt, $and).
+
+// [ ] Napisanie zapytania filtrującego filmy po dacie i ocenie (operators: $gt, $and).
 
 db.filmy.find({
     $and: [
